@@ -1,0 +1,130 @@
+/*This is the mombot web app using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* This is the beginning of the mombot web app */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: rgba(255, 255, 255, 100); 
+  background-size: cover;
+	
+}
+
+.center {
+    width: 600px;
+    padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(255, 255, 255, .75);
+	text-align: center;
+}
+
+   
+#logo {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+h1 {
+				/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+    font-family: 'Raleway', sans-serif;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: orange;
+}
+
+h2 {
+				/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+	font-size: 1.5em;
+    margin: 0px auto 10px auto;
+    color: orange;
+}
+
+nav{
+    font-family:'Raleway', sans-serif;
+    font-weight: 300 
+    font-size: 1em;
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-width: 1px 0;
+    text-align: center;
+    margin-top: 2em;
+    
+}
+
+nav li{
+    display:inline;
+}
+
+nav a{
+    display:inline-block;
+    padding: 10px;
+    
+}
+
+a{
+    color: #444;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+a:hover{
+    color:white;
+    background:orange;
+}
