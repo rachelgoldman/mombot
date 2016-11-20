@@ -60,6 +60,7 @@ $("#submitinput").click(function(){
 
 // print the response from the Web API to the chat box
 var showResponse = function(response) {
+	window.alert("hi");
     if (!request.conversationId) request.conversationId = response.conversationId;
     for (var output of response.outputs) {
         if (output.text) {
