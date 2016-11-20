@@ -71,6 +71,12 @@ html, body {
 	text-align: center;
 }
 
+.fb-page{
+    width: 400;
+    height: 300;
+    background: rgba(248,164,30,50);
+}
+
    
 #logo {
     margin-bottom: 25px;
