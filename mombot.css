@@ -137,3 +137,8 @@ a:hover{
     color:white;
     background:orange;
 }
+a { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
