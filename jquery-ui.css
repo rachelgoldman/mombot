@@ -341,7 +341,7 @@ button.ui-button::-moz-focus-inner {
 	width: 100%;
 	margin-top: 0;
 	margin-bottom: 0;
-	text-align: left;
+	text-align: center;
 }
 .ui-controlgroup-vertical .ui-controlgroup-item {
 	box-sizing: border-box;
@@ -867,7 +867,6 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-tabs .ui-tabs-panel {
 	display: block;
-	align-self:center;
 	border-width: 0;
 	padding: 1em 1.4em;
 	background: none;
