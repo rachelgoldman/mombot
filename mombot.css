@@ -131,14 +131,12 @@ a{
     color: rgba(248,164,30,100);
     text-decoration:none;
     font-weight:bold;
+    text-decoration:none;
 }
 
 a:hover{
     color:white;
     background:orange;
+    text-decoration:none;
 }
-a { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:focus { text-decoration: none; }
-a:hover, a:active { text-decoration: none; }
+
