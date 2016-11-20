@@ -327,7 +327,7 @@ button.ui-button::-moz-focus-inner {
 	display: inline-block;
 }
 .ui-controlgroup > .ui-controlgroup-item {
-	float: left;
+	float: center;
 	margin-left: 0;
 	margin-right: 0;
 }
