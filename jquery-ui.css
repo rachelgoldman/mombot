@@ -79,9 +79,7 @@
 
 .ui-widget-icon-block {
 	left: 50%;
-	right: 50%
 	margin-left: -8px;
-	margin-right: -8px;
 	display: block;
 }
 
@@ -869,6 +867,7 @@ button.ui-button::-moz-focus-inner {
 }
 .ui-tabs .ui-tabs-panel {
 	display: block;
+	align-content:center;
 	border-width: 0;
 	padding: 1em 1.4em;
 	background: none;
