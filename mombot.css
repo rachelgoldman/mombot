@@ -72,9 +72,9 @@ html, body {
 }
 
 .fb-page{
-    width: 400;
-    height: 300;
-    background: rgba(248,164,30,50);
+    padding: 30;  
+    margin: 20;
+    border-color: rgba(248,164,30,100);
 }
 
    
