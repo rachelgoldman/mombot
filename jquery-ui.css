@@ -913,6 +913,7 @@ body .ui-tooltip {
 	background: #e6e6e6 url("images/ui-bg_highlight-hard_60_e6e6e6_1x100.png") 50% 50% repeat-x;
 	color: #333333;
 	font-weight: bold;
+	margin:auto;
 }
 .ui-widget-header a {
 	color: #333333;
